@@ -5,7 +5,7 @@
   
   - In Tensorflow_Practice, I give you some examples about how to use tensorflow to build your tensorflow projects, more details show below.
   
-  - In GAN_Practice, some classical GAN models like vanilla GAN, DCGAN, CGAN, WGAN, WGAN-GP, Cycle-GAN, Pix2Pix etc. are provided.
+  - In GAN_Practice, some classical GAN models like vanilla GAN, DCGAN, CGAN, WGAN, WGAN-GP, VAE-GAN, Cycle-GAN, Pix2Pix etc. are provided.
   
 # Requirements
   - tensorflow >= 1.3.0
@@ -192,51 +192,7 @@ GAN_Practice
 ## Download Repo
       
       # clone repo to local
-      $ git clone https://github.com/nnUyi/Tensorflow_Practice.git
-      # enter root directory
-      $ cd Tensorflow_Practice
+      $ git clone https://github.com/nnUyi/GAN-From-Zero-to-One.git
       
-## Example0_Basics
-      
-      # In Example0_Basics, each file is individual so that you can run each .py as following
-      $ python [filename.py]
-      
-## Example1_FCN
-
-      # In Example1_FCN, type running instruction as following:
-      $ python main.py [configs according to the facts]
-      # Example shows below:
-      $ python main.py --batchsize=64 --is_training=True --input_height=28 --input_width=28 --input_channel=1
-      
-## Example2_CNN
-
-      # In Example2_CNN, type running instruction as following:
-      $ python main.py [configs according to the facts]
-      # Example shows below:
-      $ python main.py --batchsize=64 --is_training=True --input_height=28 --input_width=28 --input_channel=1
-
-## Example3_AE
-
-      # In Example3_AE, type running instruction as following:
-      $ python main.py [configs according to the facts]
-      # Example shows below:
-      $ python main.py --batchsize=64 --is_training=True --input_height=28 --input_width=28 --input_channel=1
-
-## Example4_GAN
-
-      # In Example4_GAN, type running instruction as following:
-      $ python main.py [configs according to the facts]
-      # Example shows below:
-      $ python main.py --batchsize=64 --is_training=True --input_height=28 --input_width=28 --input_channel=1
-
-
-## Example5_RNN
-
-  - waiting for updating
-      
-## Example6_DQN
-  
-  - waiting for updating
-  
 # Contact
   Email: computerscienceyyz@163.com
