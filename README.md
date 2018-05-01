@@ -140,7 +140,10 @@ Tensorflow_Practice
 |       |———　ops.py
 |       |———　utils.py
 |———　Example5_RNN
-|       |———　waiting for updating
+|       |———　RNN.py
+|       |———　main.py
+|       |———　ops.py
+|       |———　utils.py
 |———　Example6_DQN
 |       |———　waiting for updating
 ------------------------------------------------
